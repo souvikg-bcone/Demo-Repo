@@ -1,0 +1,870 @@
+{
+  "name": "projects/617888503870/locations/europe-west1/integrations/Test_GitHub/executions/f14dc2ca-ed29-4f92-b554-14962912e877",
+  "triggerId": "api_trigger/Test_GitHub_API_1",
+  "executionMethod": "POST",
+  "eventExecutionDetails": {
+    "eventExecutionState": "SUCCEEDED",
+    "eventExecutionSnapshot": [
+      {
+        "checkpointTaskNumber": "checkpoint_type/startup-checkpoint/task_number/-/task_attempt/-",
+        "snapshotTime": "1719470095699",
+        "taskExecutionDetails": [
+          {
+            "taskNumber": "5",
+            "taskExecutionState": "IN_PROCESS"
+          }
+        ],
+        "eventParams": {
+          "parameters": [
+            {
+              "key": "CommittedDate",
+              "value": {
+                "stringArray": {
+                  "stringValues": [
+                    "CommittedDate"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "License_ID",
+              "value": {
+                "stringValue": ""
+              }
+            },
+            {
+              "key": "ExecutionTraceInfo",
+              "value": {
+                "protoValue": {
+                  "@type": "type.googleapis.com/enterprise.crm.eventbus.proto.ExecutionTraceInfo",
+                  "traceId": "effea4ad-fcef-4b5c-b6a7-87448d280875"
+                }
+              }
+            },
+            {
+              "key": "`ExecutionMode`",
+              "value": {
+                "stringValue": "SYNC"
+              }
+            }
+          ]
+        },
+        "eventExecutionSnapshotMetadata": {
+          "eventAttemptNum": 1
+        },
+        "eventExecutionSnapshotId": "395baa28-7242-4e5f-8985-0ece29319744",
+        "eventExecutionInfoId": "f14dc2ca-ed29-4f92-b554-14962912e877",
+        "clientId": "617888503870",
+        "workflowName": "Test_GitHub"
+      },
+      {
+        "checkpointTaskNumber": "checkpoint_type/success-checkpoint/task_number/5/task_attempt/1",
+        "snapshotTime": "1719470097212",
+        "taskExecutionDetails": [
+          {
+            "taskNumber": "5",
+            "taskExecutionState": "SUCCEED",
+            "taskAttemptStats": [
+              {
+                "startTime": "1719470095936",
+                "endTime": "1719470097207"
+              }
+            ]
+          }
+        ],
+        "eventParams": {
+          "parameters": [
+            {
+              "key": "CommittedDate",
+              "value": {
+                "stringArray": {
+                  "stringValues": [
+                    "CommittedDate"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "License_ID",
+              "value": {
+                "stringValue": ""
+              }
+            },
+            {
+              "key": "ExecutionTraceInfo",
+              "value": {
+                "protoValue": {
+                  "@type": "type.googleapis.com/enterprise.crm.eventbus.proto.ExecutionTraceInfo",
+                  "traceId": "effea4ad-fcef-4b5c-b6a7-87448d280875"
+                }
+              }
+            },
+            {
+              "key": "`Task_5_listEntitiesNextPageToken`",
+              "value": {
+                "stringValue": ""
+              }
+            },
+            {
+              "key": "`Task_5_connectorOutputPayload`",
+              "value": {
+                "protoValue": {
+                  "@type": "type.googleapis.com/google.protobuf.Value",
+                  "value": [
+                    {
+                      "Id": "U_kgDOCF7hIA",
+                      "DatabaseId": 140435744,
+                      "Login": "souvikg-bcone",
+                      "Name": null,
+                      "Email": "",
+                      "TwitterUsername": null,
+                      "Pronouns": null,
+                      "Bio": null,
+                      "BioHTML": "",
+                      "Company": null,
+                      "CompanyHTML": "",
+                      "Location": null,
+                      "AnyPinnableItems": true,
+                      "PinnedItemsRemaining": 6,
+                      "ItemShowcaseHasPinnedItems": false,
+                      "IsEmployee": false,
+                      "IsHireable": false,
+                      "IsBountyHunter": false,
+                      "IsCampusExpert": false,
+                      "IsFollowingViewer": false,
+                      "IsSiteAdmin": false,
+                      "IsDeveloperProgramMember": false,
+                      "IsGitHubStar": false,
+                      "IsSponsoringViewer": false,
+                      "IsViewer": true,
+                      "ViewerCanFollow": false,
+                      "ViewerCanSponsor": false,
+                      "ViewerIsFollowing": false,
+                      "ViewerIsSponsoring": false,
+                      "ViewerCanCreateProjects": true,
+                      "ViewerCanChangePinnedItems": true,
+                      "StatusId": null,
+                      "StatusEmoji": null,
+                      "StatusMessage": null,
+                      "StatusIndicatesLimitedAvailability": null,
+                      "StatusEmojiHTML": null,
+                      "StatusCreatedAt": null,
+                      "StatusExpiresAt": null,
+                      "StatusUpdatedAt": null,
+                      "StatusOrganizationId": null,
+                      "StatusOrganizationLogin": null,
+                      "InteractionAbilityLimit": "NO_LIMIT",
+                      "InteractionAbilityOrigin": "USER",
+                      "InteractionAbilityExpiresAt": null,
+                      "HasSponsorsListing": false,
+                      "MonthlyEstimatedSponsorsIncomeInCents": 0,
+                      "EstimatedNextSponsorsPayoutInCents": 0,
+                      "SponsorsListingId": null,
+                      "SponsorsListingName": null,
+                      "TotalSponsorshipAmountAsSponsorInCents": 0,
+                      "ResourcePath": "/souvikg-bcone",
+                      "ProjectsResourcePath": "/users/souvikg-bcone/projects",
+                      "Url": "https://github.com/souvikg-bcone",
+                      "ProjectsUrl": "https://github.com/users/souvikg-bcone/projects",
+                      "WebsiteUrl": null,
+                      "AvatarUrl": "https://avatars.githubusercontent.com/u/140435744?v=4",
+                      "CreatedAt": "2023-07-24 17:14:00.0",
+                      "UpdatedAt": "2024-06-17 09:34:53.0",
+                      "RepositoryCount": 11,
+                      "FollowerCount": 0,
+                      "Role": "ADMIN",
+                      "HasTwoFactorEnabled": true,
+                      "OrganizationLogin": "TestDemoOrganization18015"
+                    },
+                    {
+                      "Id": "U_kgDOCebPLA",
+                      "DatabaseId": 166121260,
+                      "Login": "MohitSehgalBcone",
+                      "Name": null,
+                      "Email": "",
+                      "TwitterUsername": null,
+                      "Pronouns": null,
+                      "Bio": null,
+                      "BioHTML": "",
+                      "Company": null,
+                      "CompanyHTML": "",
+                      "Location": null,
+                      "AnyPinnableItems": true,
+                      "PinnedItemsRemaining": 6,
+                      "ItemShowcaseHasPinnedItems": false,
+                      "IsEmployee": false,
+                      "IsHireable": false,
+                      "IsBountyHunter": false,
+                      "IsCampusExpert": false,
+                      "IsFollowingViewer": false,
+                      "IsSiteAdmin": false,
+                      "IsDeveloperProgramMember": false,
+                      "IsGitHubStar": false,
+                      "IsSponsoringViewer": false,
+                      "IsViewer": false,
+                      "ViewerCanFollow": true,
+                      "ViewerCanSponsor": false,
+                      "ViewerIsFollowing": false,
+                      "ViewerIsSponsoring": false,
+                      "ViewerCanCreateProjects": false,
+                      "ViewerCanChangePinnedItems": false,
+                      "StatusId": null,
+                      "StatusEmoji": null,
+                      "StatusMessage": null,
+                      "StatusIndicatesLimitedAvailability": null,
+                      "StatusEmojiHTML": null,
+                      "StatusCreatedAt": null,
+                      "StatusExpiresAt": null,
+                      "StatusUpdatedAt": null,
+                      "StatusOrganizationId": null,
+                      "StatusOrganizationLogin": null,
+                      "InteractionAbilityLimit": null,
+                      "InteractionAbilityOrigin": null,
+                      "InteractionAbilityExpiresAt": null,
+                      "HasSponsorsListing": false,
+                      "MonthlyEstimatedSponsorsIncomeInCents": 0,
+                      "EstimatedNextSponsorsPayoutInCents": 0,
+                      "SponsorsListingId": null,
+                      "SponsorsListingName": null,
+                      "TotalSponsorshipAmountAsSponsorInCents": null,
+                      "ResourcePath": "/MohitSehgalBcone",
+                      "ProjectsResourcePath": "/users/MohitSehgalBcone/projects",
+                      "Url": "https://github.com/MohitSehgalBcone",
+                      "ProjectsUrl": "https://github.com/users/MohitSehgalBcone/projects",
+                      "WebsiteUrl": null,
+                      "AvatarUrl": "https://avatars.githubusercontent.com/u/166121260?v=4",
+                      "CreatedAt": "2024-04-05 10:07:19.0",
+                      "UpdatedAt": "2024-06-18 09:54:10.0",
+                      "RepositoryCount": 9,
+                      "FollowerCount": 0,
+                      "Role": "MEMBER",
+                      "HasTwoFactorEnabled": true,
+                      "OrganizationLogin": "TestDemoOrganization18015"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "`ExecutionMode`",
+              "value": {
+                "stringValue": "SYNC"
+              }
+            }
+          ]
+        },
+        "taskName": "GenericConnectorTask",
+        "eventExecutionSnapshotMetadata": {
+          "taskNumber": "5",
+          "taskName": "GenericConnectorTask",
+          "eventAttemptNum": 1,
+          "taskAttemptNum": 1,
+          "taskLabel": "Connectors",
+          "integrationName": "Test_GitHub"
+        },
+        "eventExecutionSnapshotId": "448f1d12-62cf-4b1e-8a2a-9ed9857aa70d",
+        "eventExecutionInfoId": "f14dc2ca-ed29-4f92-b554-14962912e877",
+        "clientId": "617888503870",
+        "workflowName": "Test_GitHub"
+      },
+      {
+        "checkpointTaskNumber": "checkpoint_type/shutdown-checkpoint/task_number/-/task_attempt/-",
+        "snapshotTime": "1719470097222",
+        "taskExecutionDetails": [
+          {
+            "taskNumber": "5",
+            "taskExecutionState": "SUCCEED",
+            "taskAttemptStats": [
+              {
+                "startTime": "1719470095936",
+                "endTime": "1719470097207"
+              }
+            ]
+          }
+        ],
+        "eventParams": {
+          "parameters": [
+            {
+              "key": "CommittedDate",
+              "value": {
+                "stringArray": {
+                  "stringValues": [
+                    "CommittedDate"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "License_ID",
+              "value": {
+                "stringValue": ""
+              }
+            },
+            {
+              "key": "ExecutionTraceInfo",
+              "value": {
+                "protoValue": {
+                  "@type": "type.googleapis.com/enterprise.crm.eventbus.proto.ExecutionTraceInfo",
+                  "traceId": "effea4ad-fcef-4b5c-b6a7-87448d280875"
+                }
+              }
+            },
+            {
+              "key": "`Task_5_listEntitiesNextPageToken`",
+              "value": {
+                "stringValue": ""
+              }
+            },
+            {
+              "key": "`Task_5_connectorOutputPayload`",
+              "value": {
+                "protoValue": {
+                  "@type": "type.googleapis.com/google.protobuf.Value",
+                  "value": [
+                    {
+                      "Id": "U_kgDOCF7hIA",
+                      "DatabaseId": 140435744,
+                      "Login": "souvikg-bcone",
+                      "Name": null,
+                      "Email": "",
+                      "TwitterUsername": null,
+                      "Pronouns": null,
+                      "Bio": null,
+                      "BioHTML": "",
+                      "Company": null,
+                      "CompanyHTML": "",
+                      "Location": null,
+                      "AnyPinnableItems": true,
+                      "PinnedItemsRemaining": 6,
+                      "ItemShowcaseHasPinnedItems": false,
+                      "IsEmployee": false,
+                      "IsHireable": false,
+                      "IsBountyHunter": false,
+                      "IsCampusExpert": false,
+                      "IsFollowingViewer": false,
+                      "IsSiteAdmin": false,
+                      "IsDeveloperProgramMember": false,
+                      "IsGitHubStar": false,
+                      "IsSponsoringViewer": false,
+                      "IsViewer": true,
+                      "ViewerCanFollow": false,
+                      "ViewerCanSponsor": false,
+                      "ViewerIsFollowing": false,
+                      "ViewerIsSponsoring": false,
+                      "ViewerCanCreateProjects": true,
+                      "ViewerCanChangePinnedItems": true,
+                      "StatusId": null,
+                      "StatusEmoji": null,
+                      "StatusMessage": null,
+                      "StatusIndicatesLimitedAvailability": null,
+                      "StatusEmojiHTML": null,
+                      "StatusCreatedAt": null,
+                      "StatusExpiresAt": null,
+                      "StatusUpdatedAt": null,
+                      "StatusOrganizationId": null,
+                      "StatusOrganizationLogin": null,
+                      "InteractionAbilityLimit": "NO_LIMIT",
+                      "InteractionAbilityOrigin": "USER",
+                      "InteractionAbilityExpiresAt": null,
+                      "HasSponsorsListing": false,
+                      "MonthlyEstimatedSponsorsIncomeInCents": 0,
+                      "EstimatedNextSponsorsPayoutInCents": 0,
+                      "SponsorsListingId": null,
+                      "SponsorsListingName": null,
+                      "TotalSponsorshipAmountAsSponsorInCents": 0,
+                      "ResourcePath": "/souvikg-bcone",
+                      "ProjectsResourcePath": "/users/souvikg-bcone/projects",
+                      "Url": "https://github.com/souvikg-bcone",
+                      "ProjectsUrl": "https://github.com/users/souvikg-bcone/projects",
+                      "WebsiteUrl": null,
+                      "AvatarUrl": "https://avatars.githubusercontent.com/u/140435744?v=4",
+                      "CreatedAt": "2023-07-24 17:14:00.0",
+                      "UpdatedAt": "2024-06-17 09:34:53.0",
+                      "RepositoryCount": 11,
+                      "FollowerCount": 0,
+                      "Role": "ADMIN",
+                      "HasTwoFactorEnabled": true,
+                      "OrganizationLogin": "TestDemoOrganization18015"
+                    },
+                    {
+                      "Id": "U_kgDOCebPLA",
+                      "DatabaseId": 166121260,
+                      "Login": "MohitSehgalBcone",
+                      "Name": null,
+                      "Email": "",
+                      "TwitterUsername": null,
+                      "Pronouns": null,
+                      "Bio": null,
+                      "BioHTML": "",
+                      "Company": null,
+                      "CompanyHTML": "",
+                      "Location": null,
+                      "AnyPinnableItems": true,
+                      "PinnedItemsRemaining": 6,
+                      "ItemShowcaseHasPinnedItems": false,
+                      "IsEmployee": false,
+                      "IsHireable": false,
+                      "IsBountyHunter": false,
+                      "IsCampusExpert": false,
+                      "IsFollowingViewer": false,
+                      "IsSiteAdmin": false,
+                      "IsDeveloperProgramMember": false,
+                      "IsGitHubStar": false,
+                      "IsSponsoringViewer": false,
+                      "IsViewer": false,
+                      "ViewerCanFollow": true,
+                      "ViewerCanSponsor": false,
+                      "ViewerIsFollowing": false,
+                      "ViewerIsSponsoring": false,
+                      "ViewerCanCreateProjects": false,
+                      "ViewerCanChangePinnedItems": false,
+                      "StatusId": null,
+                      "StatusEmoji": null,
+                      "StatusMessage": null,
+                      "StatusIndicatesLimitedAvailability": null,
+                      "StatusEmojiHTML": null,
+                      "StatusCreatedAt": null,
+                      "StatusExpiresAt": null,
+                      "StatusUpdatedAt": null,
+                      "StatusOrganizationId": null,
+                      "StatusOrganizationLogin": null,
+                      "InteractionAbilityLimit": null,
+                      "InteractionAbilityOrigin": null,
+                      "InteractionAbilityExpiresAt": null,
+                      "HasSponsorsListing": false,
+                      "MonthlyEstimatedSponsorsIncomeInCents": 0,
+                      "EstimatedNextSponsorsPayoutInCents": 0,
+                      "SponsorsListingId": null,
+                      "SponsorsListingName": null,
+                      "TotalSponsorshipAmountAsSponsorInCents": null,
+                      "ResourcePath": "/MohitSehgalBcone",
+                      "ProjectsResourcePath": "/users/MohitSehgalBcone/projects",
+                      "Url": "https://github.com/MohitSehgalBcone",
+                      "ProjectsUrl": "https://github.com/users/MohitSehgalBcone/projects",
+                      "WebsiteUrl": null,
+                      "AvatarUrl": "https://avatars.githubusercontent.com/u/166121260?v=4",
+                      "CreatedAt": "2024-04-05 10:07:19.0",
+                      "UpdatedAt": "2024-06-18 09:54:10.0",
+                      "RepositoryCount": 9,
+                      "FollowerCount": 0,
+                      "Role": "MEMBER",
+                      "HasTwoFactorEnabled": true,
+                      "OrganizationLogin": "TestDemoOrganization18015"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "`ExecutionMode`",
+              "value": {
+                "stringValue": "SYNC"
+              }
+            }
+          ]
+        },
+        "eventExecutionSnapshotMetadata": {
+          "eventAttemptNum": 1
+        },
+        "eventExecutionSnapshotId": "f5b5bbe7-785a-4844-9db6-78c8fe2e9b11",
+        "eventExecutionInfoId": "f14dc2ca-ed29-4f92-b554-14962912e877",
+        "clientId": "617888503870",
+        "workflowName": "Test_GitHub"
+      },
+      {
+        "checkpointTaskNumber": "checkpoint_type/final-checkpoint/task_number/-/task_attempt/-",
+        "snapshotTime": "1719470097250",
+        "taskExecutionDetails": [
+          {
+            "taskNumber": "5",
+            "taskExecutionState": "SUCCEED",
+            "taskAttemptStats": [
+              {
+                "startTime": "1719470095936",
+                "endTime": "1719470097207"
+              }
+            ]
+          }
+        ],
+        "eventParams": {
+          "parameters": [
+            {
+              "key": "CommittedDate",
+              "value": {
+                "stringArray": {
+                  "stringValues": [
+                    "CommittedDate"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "License_ID",
+              "value": {
+                "stringValue": ""
+              }
+            },
+            {
+              "key": "ExecutionTraceInfo",
+              "value": {
+                "protoValue": {
+                  "@type": "type.googleapis.com/enterprise.crm.eventbus.proto.ExecutionTraceInfo",
+                  "traceId": "effea4ad-fcef-4b5c-b6a7-87448d280875"
+                }
+              }
+            },
+            {
+              "key": "`Task_5_listEntitiesNextPageToken`",
+              "value": {
+                "stringValue": ""
+              }
+            },
+            {
+              "key": "`Task_5_connectorOutputPayload`",
+              "value": {
+                "protoValue": {
+                  "@type": "type.googleapis.com/google.protobuf.Value",
+                  "value": [
+                    {
+                      "Id": "U_kgDOCF7hIA",
+                      "DatabaseId": 140435744,
+                      "Login": "souvikg-bcone",
+                      "Name": null,
+                      "Email": "",
+                      "TwitterUsername": null,
+                      "Pronouns": null,
+                      "Bio": null,
+                      "BioHTML": "",
+                      "Company": null,
+                      "CompanyHTML": "",
+                      "Location": null,
+                      "AnyPinnableItems": true,
+                      "PinnedItemsRemaining": 6,
+                      "ItemShowcaseHasPinnedItems": false,
+                      "IsEmployee": false,
+                      "IsHireable": false,
+                      "IsBountyHunter": false,
+                      "IsCampusExpert": false,
+                      "IsFollowingViewer": false,
+                      "IsSiteAdmin": false,
+                      "IsDeveloperProgramMember": false,
+                      "IsGitHubStar": false,
+                      "IsSponsoringViewer": false,
+                      "IsViewer": true,
+                      "ViewerCanFollow": false,
+                      "ViewerCanSponsor": false,
+                      "ViewerIsFollowing": false,
+                      "ViewerIsSponsoring": false,
+                      "ViewerCanCreateProjects": true,
+                      "ViewerCanChangePinnedItems": true,
+                      "StatusId": null,
+                      "StatusEmoji": null,
+                      "StatusMessage": null,
+                      "StatusIndicatesLimitedAvailability": null,
+                      "StatusEmojiHTML": null,
+                      "StatusCreatedAt": null,
+                      "StatusExpiresAt": null,
+                      "StatusUpdatedAt": null,
+                      "StatusOrganizationId": null,
+                      "StatusOrganizationLogin": null,
+                      "InteractionAbilityLimit": "NO_LIMIT",
+                      "InteractionAbilityOrigin": "USER",
+                      "InteractionAbilityExpiresAt": null,
+                      "HasSponsorsListing": false,
+                      "MonthlyEstimatedSponsorsIncomeInCents": 0,
+                      "EstimatedNextSponsorsPayoutInCents": 0,
+                      "SponsorsListingId": null,
+                      "SponsorsListingName": null,
+                      "TotalSponsorshipAmountAsSponsorInCents": 0,
+                      "ResourcePath": "/souvikg-bcone",
+                      "ProjectsResourcePath": "/users/souvikg-bcone/projects",
+                      "Url": "https://github.com/souvikg-bcone",
+                      "ProjectsUrl": "https://github.com/users/souvikg-bcone/projects",
+                      "WebsiteUrl": null,
+                      "AvatarUrl": "https://avatars.githubusercontent.com/u/140435744?v=4",
+                      "CreatedAt": "2023-07-24 17:14:00.0",
+                      "UpdatedAt": "2024-06-17 09:34:53.0",
+                      "RepositoryCount": 11,
+                      "FollowerCount": 0,
+                      "Role": "ADMIN",
+                      "HasTwoFactorEnabled": true,
+                      "OrganizationLogin": "TestDemoOrganization18015"
+                    },
+                    {
+                      "Id": "U_kgDOCebPLA",
+                      "DatabaseId": 166121260,
+                      "Login": "MohitSehgalBcone",
+                      "Name": null,
+                      "Email": "",
+                      "TwitterUsername": null,
+                      "Pronouns": null,
+                      "Bio": null,
+                      "BioHTML": "",
+                      "Company": null,
+                      "CompanyHTML": "",
+                      "Location": null,
+                      "AnyPinnableItems": true,
+                      "PinnedItemsRemaining": 6,
+                      "ItemShowcaseHasPinnedItems": false,
+                      "IsEmployee": false,
+                      "IsHireable": false,
+                      "IsBountyHunter": false,
+                      "IsCampusExpert": false,
+                      "IsFollowingViewer": false,
+                      "IsSiteAdmin": false,
+                      "IsDeveloperProgramMember": false,
+                      "IsGitHubStar": false,
+                      "IsSponsoringViewer": false,
+                      "IsViewer": false,
+                      "ViewerCanFollow": true,
+                      "ViewerCanSponsor": false,
+                      "ViewerIsFollowing": false,
+                      "ViewerIsSponsoring": false,
+                      "ViewerCanCreateProjects": false,
+                      "ViewerCanChangePinnedItems": false,
+                      "StatusId": null,
+                      "StatusEmoji": null,
+                      "StatusMessage": null,
+                      "StatusIndicatesLimitedAvailability": null,
+                      "StatusEmojiHTML": null,
+                      "StatusCreatedAt": null,
+                      "StatusExpiresAt": null,
+                      "StatusUpdatedAt": null,
+                      "StatusOrganizationId": null,
+                      "StatusOrganizationLogin": null,
+                      "InteractionAbilityLimit": null,
+                      "InteractionAbilityOrigin": null,
+                      "InteractionAbilityExpiresAt": null,
+                      "HasSponsorsListing": false,
+                      "MonthlyEstimatedSponsorsIncomeInCents": 0,
+                      "EstimatedNextSponsorsPayoutInCents": 0,
+                      "SponsorsListingId": null,
+                      "SponsorsListingName": null,
+                      "TotalSponsorshipAmountAsSponsorInCents": null,
+                      "ResourcePath": "/MohitSehgalBcone",
+                      "ProjectsResourcePath": "/users/MohitSehgalBcone/projects",
+                      "Url": "https://github.com/MohitSehgalBcone",
+                      "ProjectsUrl": "https://github.com/users/MohitSehgalBcone/projects",
+                      "WebsiteUrl": null,
+                      "AvatarUrl": "https://avatars.githubusercontent.com/u/166121260?v=4",
+                      "CreatedAt": "2024-04-05 10:07:19.0",
+                      "UpdatedAt": "2024-06-18 09:54:10.0",
+                      "RepositoryCount": 9,
+                      "FollowerCount": 0,
+                      "Role": "MEMBER",
+                      "HasTwoFactorEnabled": true,
+                      "OrganizationLogin": "TestDemoOrganization18015"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "`ExecutionMode`",
+              "value": {
+                "stringValue": "SYNC"
+              }
+            }
+          ]
+        },
+        "eventExecutionSnapshotMetadata": {
+          "eventAttemptNum": 1
+        },
+        "eventExecutionSnapshotId": "f032baac-c7b9-4f3c-abdc-8f7c9085c5be",
+        "eventExecutionInfoId": "f14dc2ca-ed29-4f92-b554-14962912e877",
+        "clientId": "617888503870",
+        "workflowName": "Test_GitHub"
+      }
+    ],
+    "networkAddress": "/bns/wd/borg/wd/bns/cloud-crm-ip-integration-execution-qual-jobs/staging-qual-europe-west1.cloud-crm-ip-integration-execution/12",
+    "eventAttemptStats": [
+      {
+        "startTime": "1719470095639",
+        "endTime": "1719470097219"
+      }
+    ],
+    "eventExecutionSnapshotsSize": "8749"
+  },
+  "createTime": "2024-06-27T06:34:55.698Z",
+  "updateTime": "2024-06-27T06:34:57.249Z",
+  "executionDetails": {
+    "state": "SUCCEEDED",
+    "executionSnapshots": [
+      {
+        "checkpointTaskNumber": "checkpoint_type/startup-checkpoint/task_number/-/task_attempt/-",
+        "executionSnapshotMetadata": {
+          "executionAttempt": 1
+        },
+        "params": {
+          "CommittedDate": {
+            "stringArray": {
+              "stringValues": [
+                "CommittedDate"
+              ]
+            }
+          },
+          "License_ID": {
+            "stringValue": ""
+          },
+          "ExecutionTraceInfo": {
+            "jsonValue": "{\n  \"@type\": \"type.googleapis.com/enterprise.crm.eventbus.proto.ExecutionTraceInfo\",\n  \"traceId\": \"effea4ad-fcef-4b5c-b6a7-87448d280875\"\n}"
+          },
+          "`ExecutionMode`": {
+            "stringValue": "SYNC"
+          }
+        },
+        "taskExecutionDetails": [
+          {
+            "taskNumber": "5",
+            "taskExecutionState": "IN_PROCESS"
+          }
+        ]
+      },
+      {
+        "checkpointTaskNumber": "checkpoint_type/success-checkpoint/task_number/5/task_attempt/1",
+        "executionSnapshotMetadata": {
+          "taskNumber": "5",
+          "task": "GenericConnectorTask",
+          "executionAttempt": 1,
+          "taskAttempt": 1,
+          "taskLabel": "Connectors",
+          "integrationName": "Test_GitHub"
+        },
+        "params": {
+          "CommittedDate": {
+            "stringArray": {
+              "stringValues": [
+                "CommittedDate"
+              ]
+            }
+          },
+          "License_ID": {
+            "stringValue": ""
+          },
+          "ExecutionTraceInfo": {
+            "jsonValue": "{\n  \"@type\": \"type.googleapis.com/enterprise.crm.eventbus.proto.ExecutionTraceInfo\",\n  \"traceId\": \"effea4ad-fcef-4b5c-b6a7-87448d280875\"\n}"
+          },
+          "`Task_5_listEntitiesNextPageToken`": {
+            "stringValue": ""
+          },
+          "`Task_5_connectorOutputPayload`": {
+            "jsonValue": "[{\n  \"Id\": \"U_kgDOCF7hIA\",\n  \"DatabaseId\": 1.40435744E8,\n  \"Login\": \"souvikg-bcone\",\n  \"Name\": null,\n  \"Email\": \"\",\n  \"TwitterUsername\": null,\n  \"Pronouns\": null,\n  \"Bio\": null,\n  \"BioHTML\": \"\",\n  \"Company\": null,\n  \"CompanyHTML\": \"\",\n  \"Location\": null,\n  \"AnyPinnableItems\": true,\n  \"PinnedItemsRemaining\": 6.0,\n  \"ItemShowcaseHasPinnedItems\": false,\n  \"IsEmployee\": false,\n  \"IsHireable\": false,\n  \"IsBountyHunter\": false,\n  \"IsCampusExpert\": false,\n  \"IsFollowingViewer\": false,\n  \"IsSiteAdmin\": false,\n  \"IsDeveloperProgramMember\": false,\n  \"IsGitHubStar\": false,\n  \"IsSponsoringViewer\": false,\n  \"IsViewer\": true,\n  \"ViewerCanFollow\": false,\n  \"ViewerCanSponsor\": false,\n  \"ViewerIsFollowing\": false,\n  \"ViewerIsSponsoring\": false,\n  \"ViewerCanCreateProjects\": true,\n  \"ViewerCanChangePinnedItems\": true,\n  \"StatusId\": null,\n  \"StatusEmoji\": null,\n  \"StatusMessage\": null,\n  \"StatusIndicatesLimitedAvailability\": null,\n  \"StatusEmojiHTML\": null,\n  \"StatusCreatedAt\": null,\n  \"StatusExpiresAt\": null,\n  \"StatusUpdatedAt\": null,\n  \"StatusOrganizationId\": null,\n  \"StatusOrganizationLogin\": null,\n  \"InteractionAbilityLimit\": \"NO_LIMIT\",\n  \"InteractionAbilityOrigin\": \"USER\",\n  \"InteractionAbilityExpiresAt\": null,\n  \"HasSponsorsListing\": false,\n  \"MonthlyEstimatedSponsorsIncomeInCents\": 0.0,\n  \"EstimatedNextSponsorsPayoutInCents\": 0.0,\n  \"SponsorsListingId\": null,\n  \"SponsorsListingName\": null,\n  \"TotalSponsorshipAmountAsSponsorInCents\": 0.0,\n  \"ResourcePath\": \"/souvikg-bcone\",\n  \"ProjectsResourcePath\": \"/users/souvikg-bcone/projects\",\n  \"Url\": \"https://github.com/souvikg-bcone\",\n  \"ProjectsUrl\": \"https://github.com/users/souvikg-bcone/projects\",\n  \"WebsiteUrl\": null,\n  \"AvatarUrl\": \"https://avatars.githubusercontent.com/u/140435744?v\\u003d4\",\n  \"CreatedAt\": \"2023-07-24 17:14:00.0\",\n  \"UpdatedAt\": \"2024-06-17 09:34:53.0\",\n  \"RepositoryCount\": 11.0,\n  \"FollowerCount\": 0.0,\n  \"Role\": \"ADMIN\",\n  \"HasTwoFactorEnabled\": true,\n  \"OrganizationLogin\": \"TestDemoOrganization18015\"\n}, {\n  \"Id\": \"U_kgDOCebPLA\",\n  \"DatabaseId\": 1.6612126E8,\n  \"Login\": \"MohitSehgalBcone\",\n  \"Name\": null,\n  \"Email\": \"\",\n  \"TwitterUsername\": null,\n  \"Pronouns\": null,\n  \"Bio\": null,\n  \"BioHTML\": \"\",\n  \"Company\": null,\n  \"CompanyHTML\": \"\",\n  \"Location\": null,\n  \"AnyPinnableItems\": true,\n  \"PinnedItemsRemaining\": 6.0,\n  \"ItemShowcaseHasPinnedItems\": false,\n  \"IsEmployee\": false,\n  \"IsHireable\": false,\n  \"IsBountyHunter\": false,\n  \"IsCampusExpert\": false,\n  \"IsFollowingViewer\": false,\n  \"IsSiteAdmin\": false,\n  \"IsDeveloperProgramMember\": false,\n  \"IsGitHubStar\": false,\n  \"IsSponsoringViewer\": false,\n  \"IsViewer\": false,\n  \"ViewerCanFollow\": true,\n  \"ViewerCanSponsor\": false,\n  \"ViewerIsFollowing\": false,\n  \"ViewerIsSponsoring\": false,\n  \"ViewerCanCreateProjects\": false,\n  \"ViewerCanChangePinnedItems\": false,\n  \"StatusId\": null,\n  \"StatusEmoji\": null,\n  \"StatusMessage\": null,\n  \"StatusIndicatesLimitedAvailability\": null,\n  \"StatusEmojiHTML\": null,\n  \"StatusCreatedAt\": null,\n  \"StatusExpiresAt\": null,\n  \"StatusUpdatedAt\": null,\n  \"StatusOrganizationId\": null,\n  \"StatusOrganizationLogin\": null,\n  \"InteractionAbilityLimit\": null,\n  \"InteractionAbilityOrigin\": null,\n  \"InteractionAbilityExpiresAt\": null,\n  \"HasSponsorsListing\": false,\n  \"MonthlyEstimatedSponsorsIncomeInCents\": 0.0,\n  \"EstimatedNextSponsorsPayoutInCents\": 0.0,\n  \"SponsorsListingId\": null,\n  \"SponsorsListingName\": null,\n  \"TotalSponsorshipAmountAsSponsorInCents\": null,\n  \"ResourcePath\": \"/MohitSehgalBcone\",\n  \"ProjectsResourcePath\": \"/users/MohitSehgalBcone/projects\",\n  \"Url\": \"https://github.com/MohitSehgalBcone\",\n  \"ProjectsUrl\": \"https://github.com/users/MohitSehgalBcone/projects\",\n  \"WebsiteUrl\": null,\n  \"AvatarUrl\": \"https://avatars.githubusercontent.com/u/166121260?v\\u003d4\",\n  \"CreatedAt\": \"2024-04-05 10:07:19.0\",\n  \"UpdatedAt\": \"2024-06-18 09:54:10.0\",\n  \"RepositoryCount\": 9.0,\n  \"FollowerCount\": 0.0,\n  \"Role\": \"MEMBER\",\n  \"HasTwoFactorEnabled\": true,\n  \"OrganizationLogin\": \"TestDemoOrganization18015\"\n}]"
+          },
+          "`ExecutionMode`": {
+            "stringValue": "SYNC"
+          }
+        },
+        "taskExecutionDetails": [
+          {
+            "taskNumber": "5",
+            "taskExecutionState": "SUCCEED",
+            "taskAttemptStats": [
+              {
+                "startTime": "2024-06-27T06:34:55.936Z",
+                "endTime": "2024-06-27T06:34:57.207Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "checkpointTaskNumber": "checkpoint_type/shutdown-checkpoint/task_number/-/task_attempt/-",
+        "executionSnapshotMetadata": {
+          "executionAttempt": 1
+        },
+        "params": {
+          "CommittedDate": {
+            "stringArray": {
+              "stringValues": [
+                "CommittedDate"
+              ]
+            }
+          },
+          "License_ID": {
+            "stringValue": ""
+          },
+          "ExecutionTraceInfo": {
+            "jsonValue": "{\n  \"@type\": \"type.googleapis.com/enterprise.crm.eventbus.proto.ExecutionTraceInfo\",\n  \"traceId\": \"effea4ad-fcef-4b5c-b6a7-87448d280875\"\n}"
+          },
+          "`Task_5_listEntitiesNextPageToken`": {
+            "stringValue": ""
+          },
+          "`Task_5_connectorOutputPayload`": {
+            "jsonValue": "[{\n  \"Id\": \"U_kgDOCF7hIA\",\n  \"DatabaseId\": 1.40435744E8,\n  \"Login\": \"souvikg-bcone\",\n  \"Name\": null,\n  \"Email\": \"\",\n  \"TwitterUsername\": null,\n  \"Pronouns\": null,\n  \"Bio\": null,\n  \"BioHTML\": \"\",\n  \"Company\": null,\n  \"CompanyHTML\": \"\",\n  \"Location\": null,\n  \"AnyPinnableItems\": true,\n  \"PinnedItemsRemaining\": 6.0,\n  \"ItemShowcaseHasPinnedItems\": false,\n  \"IsEmployee\": false,\n  \"IsHireable\": false,\n  \"IsBountyHunter\": false,\n  \"IsCampusExpert\": false,\n  \"IsFollowingViewer\": false,\n  \"IsSiteAdmin\": false,\n  \"IsDeveloperProgramMember\": false,\n  \"IsGitHubStar\": false,\n  \"IsSponsoringViewer\": false,\n  \"IsViewer\": true,\n  \"ViewerCanFollow\": false,\n  \"ViewerCanSponsor\": false,\n  \"ViewerIsFollowing\": false,\n  \"ViewerIsSponsoring\": false,\n  \"ViewerCanCreateProjects\": true,\n  \"ViewerCanChangePinnedItems\": true,\n  \"StatusId\": null,\n  \"StatusEmoji\": null,\n  \"StatusMessage\": null,\n  \"StatusIndicatesLimitedAvailability\": null,\n  \"StatusEmojiHTML\": null,\n  \"StatusCreatedAt\": null,\n  \"StatusExpiresAt\": null,\n  \"StatusUpdatedAt\": null,\n  \"StatusOrganizationId\": null,\n  \"StatusOrganizationLogin\": null,\n  \"InteractionAbilityLimit\": \"NO_LIMIT\",\n  \"InteractionAbilityOrigin\": \"USER\",\n  \"InteractionAbilityExpiresAt\": null,\n  \"HasSponsorsListing\": false,\n  \"MonthlyEstimatedSponsorsIncomeInCents\": 0.0,\n  \"EstimatedNextSponsorsPayoutInCents\": 0.0,\n  \"SponsorsListingId\": null,\n  \"SponsorsListingName\": null,\n  \"TotalSponsorshipAmountAsSponsorInCents\": 0.0,\n  \"ResourcePath\": \"/souvikg-bcone\",\n  \"ProjectsResourcePath\": \"/users/souvikg-bcone/projects\",\n  \"Url\": \"https://github.com/souvikg-bcone\",\n  \"ProjectsUrl\": \"https://github.com/users/souvikg-bcone/projects\",\n  \"WebsiteUrl\": null,\n  \"AvatarUrl\": \"https://avatars.githubusercontent.com/u/140435744?v\\u003d4\",\n  \"CreatedAt\": \"2023-07-24 17:14:00.0\",\n  \"UpdatedAt\": \"2024-06-17 09:34:53.0\",\n  \"RepositoryCount\": 11.0,\n  \"FollowerCount\": 0.0,\n  \"Role\": \"ADMIN\",\n  \"HasTwoFactorEnabled\": true,\n  \"OrganizationLogin\": \"TestDemoOrganization18015\"\n}, {\n  \"Id\": \"U_kgDOCebPLA\",\n  \"DatabaseId\": 1.6612126E8,\n  \"Login\": \"MohitSehgalBcone\",\n  \"Name\": null,\n  \"Email\": \"\",\n  \"TwitterUsername\": null,\n  \"Pronouns\": null,\n  \"Bio\": null,\n  \"BioHTML\": \"\",\n  \"Company\": null,\n  \"CompanyHTML\": \"\",\n  \"Location\": null,\n  \"AnyPinnableItems\": true,\n  \"PinnedItemsRemaining\": 6.0,\n  \"ItemShowcaseHasPinnedItems\": false,\n  \"IsEmployee\": false,\n  \"IsHireable\": false,\n  \"IsBountyHunter\": false,\n  \"IsCampusExpert\": false,\n  \"IsFollowingViewer\": false,\n  \"IsSiteAdmin\": false,\n  \"IsDeveloperProgramMember\": false,\n  \"IsGitHubStar\": false,\n  \"IsSponsoringViewer\": false,\n  \"IsViewer\": false,\n  \"ViewerCanFollow\": true,\n  \"ViewerCanSponsor\": false,\n  \"ViewerIsFollowing\": false,\n  \"ViewerIsSponsoring\": false,\n  \"ViewerCanCreateProjects\": false,\n  \"ViewerCanChangePinnedItems\": false,\n  \"StatusId\": null,\n  \"StatusEmoji\": null,\n  \"StatusMessage\": null,\n  \"StatusIndicatesLimitedAvailability\": null,\n  \"StatusEmojiHTML\": null,\n  \"StatusCreatedAt\": null,\n  \"StatusExpiresAt\": null,\n  \"StatusUpdatedAt\": null,\n  \"StatusOrganizationId\": null,\n  \"StatusOrganizationLogin\": null,\n  \"InteractionAbilityLimit\": null,\n  \"InteractionAbilityOrigin\": null,\n  \"InteractionAbilityExpiresAt\": null,\n  \"HasSponsorsListing\": false,\n  \"MonthlyEstimatedSponsorsIncomeInCents\": 0.0,\n  \"EstimatedNextSponsorsPayoutInCents\": 0.0,\n  \"SponsorsListingId\": null,\n  \"SponsorsListingName\": null,\n  \"TotalSponsorshipAmountAsSponsorInCents\": null,\n  \"ResourcePath\": \"/MohitSehgalBcone\",\n  \"ProjectsResourcePath\": \"/users/MohitSehgalBcone/projects\",\n  \"Url\": \"https://github.com/MohitSehgalBcone\",\n  \"ProjectsUrl\": \"https://github.com/users/MohitSehgalBcone/projects\",\n  \"WebsiteUrl\": null,\n  \"AvatarUrl\": \"https://avatars.githubusercontent.com/u/166121260?v\\u003d4\",\n  \"CreatedAt\": \"2024-04-05 10:07:19.0\",\n  \"UpdatedAt\": \"2024-06-18 09:54:10.0\",\n  \"RepositoryCount\": 9.0,\n  \"FollowerCount\": 0.0,\n  \"Role\": \"MEMBER\",\n  \"HasTwoFactorEnabled\": true,\n  \"OrganizationLogin\": \"TestDemoOrganization18015\"\n}]"
+          },
+          "`ExecutionMode`": {
+            "stringValue": "SYNC"
+          }
+        },
+        "taskExecutionDetails": [
+          {
+            "taskNumber": "5",
+            "taskExecutionState": "SUCCEED",
+            "taskAttemptStats": [
+              {
+                "startTime": "2024-06-27T06:34:55.936Z",
+                "endTime": "2024-06-27T06:34:57.207Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "checkpointTaskNumber": "checkpoint_type/final-checkpoint/task_number/-/task_attempt/-",
+        "executionSnapshotMetadata": {
+          "executionAttempt": 1
+        },
+        "params": {
+          "CommittedDate": {
+            "stringArray": {
+              "stringValues": [
+                "CommittedDate"
+              ]
+            }
+          },
+          "License_ID": {
+            "stringValue": ""
+          },
+          "ExecutionTraceInfo": {
+            "jsonValue": "{\n  \"@type\": \"type.googleapis.com/enterprise.crm.eventbus.proto.ExecutionTraceInfo\",\n  \"traceId\": \"effea4ad-fcef-4b5c-b6a7-87448d280875\"\n}"
+          },
+          "`Task_5_listEntitiesNextPageToken`": {
+            "stringValue": ""
+          },
+          "`Task_5_connectorOutputPayload`": {
+            "jsonValue": "[{\n  \"Id\": \"U_kgDOCF7hIA\",\n  \"DatabaseId\": 1.40435744E8,\n  \"Login\": \"souvikg-bcone\",\n  \"Name\": null,\n  \"Email\": \"\",\n  \"TwitterUsername\": null,\n  \"Pronouns\": null,\n  \"Bio\": null,\n  \"BioHTML\": \"\",\n  \"Company\": null,\n  \"CompanyHTML\": \"\",\n  \"Location\": null,\n  \"AnyPinnableItems\": true,\n  \"PinnedItemsRemaining\": 6.0,\n  \"ItemShowcaseHasPinnedItems\": false,\n  \"IsEmployee\": false,\n  \"IsHireable\": false,\n  \"IsBountyHunter\": false,\n  \"IsCampusExpert\": false,\n  \"IsFollowingViewer\": false,\n  \"IsSiteAdmin\": false,\n  \"IsDeveloperProgramMember\": false,\n  \"IsGitHubStar\": false,\n  \"IsSponsoringViewer\": false,\n  \"IsViewer\": true,\n  \"ViewerCanFollow\": false,\n  \"ViewerCanSponsor\": false,\n  \"ViewerIsFollowing\": false,\n  \"ViewerIsSponsoring\": false,\n  \"ViewerCanCreateProjects\": true,\n  \"ViewerCanChangePinnedItems\": true,\n  \"StatusId\": null,\n  \"StatusEmoji\": null,\n  \"StatusMessage\": null,\n  \"StatusIndicatesLimitedAvailability\": null,\n  \"StatusEmojiHTML\": null,\n  \"StatusCreatedAt\": null,\n  \"StatusExpiresAt\": null,\n  \"StatusUpdatedAt\": null,\n  \"StatusOrganizationId\": null,\n  \"StatusOrganizationLogin\": null,\n  \"InteractionAbilityLimit\": \"NO_LIMIT\",\n  \"InteractionAbilityOrigin\": \"USER\",\n  \"InteractionAbilityExpiresAt\": null,\n  \"HasSponsorsListing\": false,\n  \"MonthlyEstimatedSponsorsIncomeInCents\": 0.0,\n  \"EstimatedNextSponsorsPayoutInCents\": 0.0,\n  \"SponsorsListingId\": null,\n  \"SponsorsListingName\": null,\n  \"TotalSponsorshipAmountAsSponsorInCents\": 0.0,\n  \"ResourcePath\": \"/souvikg-bcone\",\n  \"ProjectsResourcePath\": \"/users/souvikg-bcone/projects\",\n  \"Url\": \"https://github.com/souvikg-bcone\",\n  \"ProjectsUrl\": \"https://github.com/users/souvikg-bcone/projects\",\n  \"WebsiteUrl\": null,\n  \"AvatarUrl\": \"https://avatars.githubusercontent.com/u/140435744?v\\u003d4\",\n  \"CreatedAt\": \"2023-07-24 17:14:00.0\",\n  \"UpdatedAt\": \"2024-06-17 09:34:53.0\",\n  \"RepositoryCount\": 11.0,\n  \"FollowerCount\": 0.0,\n  \"Role\": \"ADMIN\",\n  \"HasTwoFactorEnabled\": true,\n  \"OrganizationLogin\": \"TestDemoOrganization18015\"\n}, {\n  \"Id\": \"U_kgDOCebPLA\",\n  \"DatabaseId\": 1.6612126E8,\n  \"Login\": \"MohitSehgalBcone\",\n  \"Name\": null,\n  \"Email\": \"\",\n  \"TwitterUsername\": null,\n  \"Pronouns\": null,\n  \"Bio\": null,\n  \"BioHTML\": \"\",\n  \"Company\": null,\n  \"CompanyHTML\": \"\",\n  \"Location\": null,\n  \"AnyPinnableItems\": true,\n  \"PinnedItemsRemaining\": 6.0,\n  \"ItemShowcaseHasPinnedItems\": false,\n  \"IsEmployee\": false,\n  \"IsHireable\": false,\n  \"IsBountyHunter\": false,\n  \"IsCampusExpert\": false,\n  \"IsFollowingViewer\": false,\n  \"IsSiteAdmin\": false,\n  \"IsDeveloperProgramMember\": false,\n  \"IsGitHubStar\": false,\n  \"IsSponsoringViewer\": false,\n  \"IsViewer\": false,\n  \"ViewerCanFollow\": true,\n  \"ViewerCanSponsor\": false,\n  \"ViewerIsFollowing\": false,\n  \"ViewerIsSponsoring\": false,\n  \"ViewerCanCreateProjects\": false,\n  \"ViewerCanChangePinnedItems\": false,\n  \"StatusId\": null,\n  \"StatusEmoji\": null,\n  \"StatusMessage\": null,\n  \"StatusIndicatesLimitedAvailability\": null,\n  \"StatusEmojiHTML\": null,\n  \"StatusCreatedAt\": null,\n  \"StatusExpiresAt\": null,\n  \"StatusUpdatedAt\": null,\n  \"StatusOrganizationId\": null,\n  \"StatusOrganizationLogin\": null,\n  \"InteractionAbilityLimit\": null,\n  \"InteractionAbilityOrigin\": null,\n  \"InteractionAbilityExpiresAt\": null,\n  \"HasSponsorsListing\": false,\n  \"MonthlyEstimatedSponsorsIncomeInCents\": 0.0,\n  \"EstimatedNextSponsorsPayoutInCents\": 0.0,\n  \"SponsorsListingId\": null,\n  \"SponsorsListingName\": null,\n  \"TotalSponsorshipAmountAsSponsorInCents\": null,\n  \"ResourcePath\": \"/MohitSehgalBcone\",\n  \"ProjectsResourcePath\": \"/users/MohitSehgalBcone/projects\",\n  \"Url\": \"https://github.com/MohitSehgalBcone\",\n  \"ProjectsUrl\": \"https://github.com/users/MohitSehgalBcone/projects\",\n  \"WebsiteUrl\": null,\n  \"AvatarUrl\": \"https://avatars.githubusercontent.com/u/166121260?v\\u003d4\",\n  \"CreatedAt\": \"2024-04-05 10:07:19.0\",\n  \"UpdatedAt\": \"2024-06-18 09:54:10.0\",\n  \"RepositoryCount\": 9.0,\n  \"FollowerCount\": 0.0,\n  \"Role\": \"MEMBER\",\n  \"HasTwoFactorEnabled\": true,\n  \"OrganizationLogin\": \"TestDemoOrganization18015\"\n}]"
+          },
+          "`ExecutionMode`": {
+            "stringValue": "SYNC"
+          }
+        },
+        "taskExecutionDetails": [
+          {
+            "taskNumber": "5",
+            "taskExecutionState": "SUCCEED",
+            "taskAttemptStats": [
+              {
+                "startTime": "2024-06-27T06:34:55.936Z",
+                "endTime": "2024-06-27T06:34:57.207Z"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "attemptStats": [
+      {
+        "startTime": "2024-06-27T06:34:55.639Z",
+        "endTime": "2024-06-27T06:34:57.219Z"
+      }
+    ],
+    "eventExecutionSnapshotsSize": "8749"
+  },
+  "cloudLoggingDetails": {
+    "cloudLoggingSeverity": "CLOUD_LOGGING_SEVERITY_UNSPECIFIED",
+    "enableCloudLogging": false
+  },
+  "integrationVersionState": "DRAFT",
+  "snapshotNumber": "2",
+  "replayInfo": {}
+}
